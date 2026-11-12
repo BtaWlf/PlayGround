@@ -2,11 +2,13 @@
 
 ## NEON DISTRICT — Night Shift
 
-A complete 3D open-city action RPG in a single page. Three ghost packages, three enterable safehouses, drivable cars, respawning bounty enemies, and a full weapon/upgrade armory.
+A complete 3D open-city action RPG in a single page. A five-contract campaign across a neon city, three enterable safehouses, drivable cars, respawning bounty enemies, a full weapon/upgrade armory, and a proper end-of-campaign screen with free roam after the credits.
 
 **Run locally:** `python3 -m http.server 3000` then open <http://localhost:3000>.
 
-**Desktop controls:** WASD move · mouse look/aim · click fire · Shift sprint · Space dash · E drive/enter/use · B armory · 1–4 swap owned weapons.
+**Desktop controls:** WASD move · mouse look/aim · click fire · Shift sprint · Space dash · E drive/enter/use · B armory · 1–4 swap owned weapons · F melee.
+
+**The campaign:** secure three ghost packages in each of the five contracts, then reach the orange extraction beacon. Clear contract 05 to finish the night shift. After the end screen you can keep roaming for endless contracts.
 
 **Purchase or upgrade:** press **B** (or click the green **ARMORY & GEAR** button) at any time. On phones/tablets use the **SHOP** button. Click any green purchase button; weapons equip immediately and upgrades stack. Safehouse interiors also contain an armory terminal.
 
