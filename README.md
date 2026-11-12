@@ -10,6 +10,8 @@ A complete 3D open-city action RPG in a single page. A five-contract campaign ac
 
 **The campaign:** secure three ghost packages in each of the five contracts, then reach the orange extraction beacon. Clear contract 05 to finish the night shift. After the end screen you can keep roaming for endless contracts.
 
+**Free roam street ops:** while roaming after the campaign, random timed jobs appear every so often — bounty marks, three-target shakedowns, dead drops, and extraction windows. Each one pays bonus credits and XP, and the map marks the target in gold.
+
 **Purchase or upgrade:** press **B** (or click the green **ARMORY & GEAR** button) at any time. On phones/tablets use the **SHOP** button. Click any green purchase button; weapons equip immediately and upgrades stack. Safehouse interiors also contain an armory terminal.
 
 Three.js r160 is vendored in `vendor/three.module.js` (MIT, license header preserved).
