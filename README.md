@@ -1,5 +1,18 @@
 # PlayGround
 
+## NEON DISTRICT — Night Shift
+
+A complete 3D open-city action RPG in a single page. Three ghost packages, three enterable safehouses, drivable cars, respawning bounty enemies, and a full weapon/upgrade armory.
+
+**Run locally:** `python3 -m http.server 3000` then open <http://localhost:3000>.
+
+**Desktop controls:** WASD move · mouse look/aim · click fire · Shift sprint · Space dash · E drive/enter/use · B armory · 1–4 swap owned weapons.
+
+**Purchase or upgrade:** press **B** (or click the green **ARMORY & GEAR** button) at any time. On phones/tablets use the **SHOP** button. Click any green purchase button; weapons equip immediately and upgrades stack. Safehouse interiors also contain an armory terminal.
+
+Three.js r160 is vendored in `vendor/three.module.js` (MIT, license header preserved).
+
+
 <!-- omgithub:readme:start -->
 ## 🚀 Build, play, and remix with OMGithub
 
