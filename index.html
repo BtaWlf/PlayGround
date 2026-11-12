@@ -30,8 +30,9 @@
 .win-screen{position:fixed;inset:0;z-index:24;display:none;place-items:center;background:radial-gradient(circle at 50% 45%,#0b2422bb 0%,#030808dd 62%,#020506ee 100%);padding:22px;backdrop-filter:blur(5px)}.win-screen.open{display:grid}.win-card{width:min(680px,100%);max-height:calc(100vh - 44px);overflow:auto;padding:30px 32px;background:linear-gradient(145deg,#0d1a1b,#081113);border:1px solid #66f0c266;box-shadow:0 30px 120px #000e,0 0 80px #66f0c21a;position:relative}.win-card:before{content:'';position:absolute;left:0;right:0;top:0;height:2px;background:linear-gradient(90deg,transparent,#66f0c2,#ffa86b,transparent)}.win-card h2{font:900 clamp(54px,9vw,92px)/.8 'Barlow Condensed',sans-serif;letter-spacing:-1.5px;margin:14px 0 16px;text-transform:uppercase;text-shadow:0 8px 44px #000}.win-card h2 span{display:block;color:var(--teal);text-shadow:0 0 46px #66f0c23d}.win-card p{max-width:500px;color:#aebdb8;font-size:12px;line-height:1.7;margin:0}.win-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:22px 0}.win-stat{padding:11px 12px;background:#101d1e;border:1px solid #ffffff14}.win-stat b{display:block;font:700 25px 'Barlow Condensed',sans-serif;letter-spacing:.7px;color:var(--teal);line-height:1}.win-stat span{display:block;margin-top:5px;font:7px 'DM Mono',monospace;letter-spacing:1.4px;color:#8ba09a}.win-actions{display:flex;gap:10px;flex-wrap:wrap}.ghost-btn{pointer-events:auto;cursor:pointer;background:transparent;border:1px solid #ffffff38;color:#d7e6e0;padding:15px 22px;font:800 12px 'Barlow Condensed',sans-serif;letter-spacing:1.5px;transition:border-color .15s,color .15s}.ghost-btn:hover{border-color:var(--teal);color:var(--teal)}.win-foot{margin-top:20px;padding-top:13px;border-top:1px solid #ffffff11;font:8px 'DM Mono',monospace;letter-spacing:2px;color:#61736e}
 #start-screen{position:fixed;inset:0;display:grid;place-items:center;background:linear-gradient(90deg,#050b0df2 0%,#050b0dc4 36%,#050b0d28 70%,#050b0d18 100%),linear-gradient(0deg,#050b0daa,transparent 52%);z-index:15;pointer-events:auto;transition:opacity .55s}.intro{width:min(560px,calc(100% - 38px));margin-left:min(7vw,110px);margin-right:auto}.intro-overline{font:10px 'DM Mono',monospace;letter-spacing:3.4px;color:var(--teal);text-shadow:0 0 18px #66f0c266}.intro h1{font:900 clamp(64px,10.5vw,118px)/.78 'Barlow Condensed',sans-serif;letter-spacing:-2px;margin:24px 0 17px;text-transform:uppercase;text-shadow:0 6px 50px #000}.intro h1 span{display:block;color:var(--teal);text-shadow:0 0 40px #66f0c23d}.intro p{max-width:400px;color:#b1bfba;font-size:13px;line-height:1.75}.intro p b{color:#e8fff7}.start-row{display:flex;align-items:center;gap:18px;margin-top:26px;flex-wrap:wrap}.play-btn{pointer-events:auto;cursor:pointer;background:var(--teal);border:0;color:#08211c;padding:15px 25px;font:800 13px 'Barlow Condensed',sans-serif;letter-spacing:1.6px;box-shadow:0 10px 34px #66f0c238;transition:transform .15s,background .15s}.play-btn:hover{transform:translateY(-2px);background:#a6ffe3}.start-hint{font:9px 'DM Mono',monospace;color:#8fa09a;line-height:1.8}.start-hint b{color:#d8fff3}.intro-footer{position:absolute;left:28px;bottom:max(20px,env(safe-area-inset-bottom));font:8px 'DM Mono',monospace;color:#62736f;letter-spacing:2px}.intro-badge{display:inline-flex;align-items:center;gap:7px;margin-top:17px;font:9px 'DM Mono',monospace;color:#a9bbb5;letter-spacing:1px;border:1px solid #ffffff1d;padding:5px 9px;background:#071012a8}.intro-badge i{width:6px;height:6px;border-radius:50%;background:var(--teal);box-shadow:0 0 10px var(--teal)}
 .stars{letter-spacing:2px}.mobile-only{display:none}.touch-hint{display:none}
-@media(max-width:820px){.controls,.bottom-right{display:none}.map-wrap{width:132px;height:132px;right:12px;top:86px}.left-stack{left:12px;top:84px;width:min(230px,58vw)}.brand-sub{display:none}.stat{min-width:72px;padding:7px 8px}.stat-value{font-size:16px}.topbar{left:12px;right:12px;top:max(10px,env(safe-area-inset-top))}.weapon-card{right:12px;bottom:154px;min-width:150px;padding:7px 10px}.armory-btn{right:12px;bottom:108px;padding:8px 12px;font-size:10px}.shop-list{grid-template-columns:1fr}.shop-card{padding:15px;max-height:calc(100vh - 20px)}.shop-head{top:-15px}.intro{margin:auto}.intro h1{font-size:clamp(58px,16vw,96px)}.start-hint{max-width:250px}.intro-footer{left:14px;bottom:10px;font-size:7px}.shop-item{min-height:0}.mobile-controls{display:block}.crosshair{opacity:.75!important}.armory-btn{display:none}.mobile-only{display:block}.desktop-hint{display:none}.touch-hint{display:block}.win-card{padding:24px 20px}.win-stats{grid-template-columns:1fr 1fr}.win-actions{flex-direction:column}.win-actions .play-btn,.win-actions .ghost-btn{width:100%}}
-@media(max-width:520px){.left-stack{width:min(200px,56vw)}.mission-copy{display:none}.panel{padding:9px 10px}.map-wrap{top:82px;width:104px;height:104px}.stats{gap:4px}.stat{min-width:57px;padding:6px 6px}.stat-label{font-size:7px}.stat-value{font-size:14px}.weapon-card{display:none}.brand-title{font-size:16px}.brand-mark{width:30px;height:30px;font-size:16px}.armory-btn{bottom:max(160px,calc(env(safe-area-inset-bottom) + 146px));right:16px}.toast{top:36%;max-width:88vw;white-space:normal;text-align:center}.prompt{bottom:27%;max-width:86vw;white-space:normal;text-align:center}}
+.event-panel{display:none;border-color:#ffc35e4d;box-shadow:0 8px 30px #0004,0 0 30px #ffc35e0d}.event-panel.on{display:block;animation:eventIn .6s ease-out}@keyframes eventIn{0%{box-shadow:0 0 0 3px #ffc35e99;border-color:#ffc35e}100%{box-shadow:0 8px 30px #0004,0 0 30px #ffc35e0d;border-color:#ffc35e4d}}.event-name{font:700 20px 'Barlow Condensed',sans-serif;letter-spacing:.8px;color:var(--orange);margin:3px 0 2px}.event-copy{font-size:9.5px;line-height:1.45;color:#aab8b4;margin-bottom:7px}.event-fill{background:linear-gradient(90deg,#ffc35e,#ff8a5f);box-shadow:0 0 14px #ffc35e66}
+@media(max-width:820px){.controls,.bottom-right{display:none}.map-wrap{width:132px;height:132px;right:12px;top:86px}.left-stack{left:12px;top:84px;width:min(230px,58vw)}.brand-sub{display:none}.stat{min-width:72px;padding:7px 8px}.stat-value{font-size:16px}.topbar{left:12px;right:12px;top:max(10px,env(safe-area-inset-top))}.weapon-card{right:12px;bottom:154px;min-width:150px;padding:7px 10px}.armory-btn{right:12px;bottom:108px;padding:8px 12px;font-size:10px}.shop-list{grid-template-columns:1fr}.shop-card{padding:15px;max-height:calc(100vh - 20px)}.shop-head{top:-15px}.intro{margin:auto}.intro h1{font-size:clamp(58px,16vw,96px)}.start-hint{max-width:250px}.intro-footer{left:14px;bottom:10px;font-size:7px}.shop-item{min-height:0}.mobile-controls{display:block}.crosshair{opacity:.75!important}.armory-btn{display:none}.mobile-only{display:block}.desktop-hint{display:none}.touch-hint{display:block}body.event-active .toast{top:auto;bottom:30%;max-width:88vw;white-space:normal;text-align:center}.win-card{padding:24px 20px}.win-stats{grid-template-columns:1fr 1fr}.win-actions{flex-direction:column}.win-actions .play-btn,.win-actions .ghost-btn{width:100%}}
+@media(max-width:520px){.left-stack{width:min(200px,56vw)}.mission-copy{display:none}.panel{padding:9px 10px}.map-wrap{top:82px;width:104px;height:104px}.stats{gap:4px}.stat{min-width:57px;padding:6px 6px}.stat-label{font-size:7px}.stat-value{font-size:14px}.weapon-card{display:none}.brand-title{font-size:16px}.brand-mark{width:30px;height:30px;font-size:16px}.armory-btn{bottom:max(160px,calc(env(safe-area-inset-bottom) + 146px));right:16px}.toast{top:36%;max-width:88vw;white-space:normal;text-align:center}.prompt{bottom:27%;max-width:86vw;white-space:normal;text-align:center}.event-copy{display:none}.event-name{font-size:16px}}
 @media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 </style>
 </head>
@@ -64,6 +65,13 @@
       <div class="health-label"><span>STREET CRED</span><span id="xp-text">0 / 100 XP</span></div>
       <div class="bars" style="margin-bottom:0"><div id="xp-bar" class="bar xp" style="width:0%"></div></div>
       <div id="objective" class="objective">▸ Follow the <b>teal beacons</b> on your map</div>
+    </div>
+    <div id="event-panel" class="panel event-panel">
+      <div class="eyebrow" id="event-label">STREET OP / FREE ROAM</div>
+      <div id="event-name" class="event-name">BOUNTY MARK</div>
+      <div id="event-copy" class="event-copy">A marked runner is loose in the district.</div>
+      <div class="progress-row"><span id="event-progress">TARGET ACTIVE</span><span id="event-timer">1:30</span></div>
+      <div class="progress-track"><div id="event-bar" class="progress-fill event-fill" style="width:100%"></div></div>
     </div>
   </div>
 
@@ -157,7 +165,10 @@ const el = {
   mini: document.querySelector('#minimap'), crosshair: document.querySelector('#crosshair'),
   shop: document.querySelector('#shop'), shopList: document.querySelector('#shop-list'), shopCash: document.querySelector('#shop-cash'),
   start: document.querySelector('#start-screen'), play: document.querySelector('#play'),
-  win: document.querySelector('#win-screen'), winStats: document.querySelector('#win-stats')
+  win: document.querySelector('#win-screen'), winStats: document.querySelector('#win-stats'),
+  eventPanel: document.querySelector('#event-panel'), eventName: document.querySelector('#event-name'),
+  eventCopy: document.querySelector('#event-copy'), eventProgress: document.querySelector('#event-progress'),
+  eventTimer: document.querySelector('#event-timer'), eventBar: document.querySelector('#event-bar')
 };
 const mctx = el.mini.getContext('2d');
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
@@ -165,6 +176,7 @@ const lerp = (a, b, t) => a + (b - a) * t;
 const rand = seed => { let n = seed >>> 0; return () => { n = (n * 1664525 + 1013904223) >>> 0; return n / 4294967296; }; };
 const rnd = rand(973311);
 const dist2 = (ax, az, bx, bz) => Math.hypot(ax - bx, az - bz);
+const fmtTime = s => Math.floor(Math.max(0, s) / 60) + ':' + String(Math.floor(Math.max(0, s)) % 60).padStart(2, '0');
 function lerpAngle(a, b, t) { let d = Math.atan2(Math.sin(b - a), Math.cos(b - a)); return a + d * t; }
 
 /* ---------- game state ---------- */
@@ -499,12 +511,24 @@ function makeBarSprite() {
   s.scale.set(1.1, .16, 1); s.visible = false; s.userData = { canvas: c, ctx: x, tex: t };
   return s;
 }
+function makeEnemyMarker() {
+  const g = new THREE.Group();
+  const ring = new THREE.Mesh(new THREE.TorusGeometry(.92, .055, 6, 28), flat(0xffc35e, .95));
+  ring.rotation.x = -Math.PI / 2; ring.position.y = .06; g.add(ring);
+  const halo = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTex, color: 0xffb04e, transparent: true, opacity: .78, blending: THREE.AdditiveBlending, depthWrite: false }));
+  halo.scale.set(3, 3, 1); halo.position.y = 1.55; g.add(halo);
+  const beam = new THREE.Mesh(new THREE.CylinderGeometry(.07, .34, 13, 8, 1, true), new THREE.MeshBasicMaterial({ color: 0xffb04e, transparent: true, opacity: .16, side: THREE.DoubleSide, blending: THREE.AdditiveBlending, depthWrite: false, toneMapped: false }));
+  beam.position.y = 6.5; g.add(beam);
+  g.visible = false; g.userData.ring = ring; g.userData.halo = halo;
+  return g;
+}
 function spawnEnemies() {
   enemySpawnPoints.forEach((p, i) => {
     const model = makeHumanoid(0x7d3338, 0x1b2028, 0xb98262, i % 2 ? 0xff8a6c : 0xff5f7d, true);
     const bar = makeBarSprite(); bar.position.y = 2.45; model.group.add(bar);
+    const marker = makeEnemyMarker(); model.group.add(marker);
     model.group.position.set(p.x, .12, p.z); world.add(model.group);
-    enemies.push({ id: i, model, bar, x: p.x, z: p.z, spawnX: p.x, spawnZ: p.z, hp: 70, maxHp: 70, angle: rnd() * 6.28, dead: false, respawn: 0, alert: 0, fireCd: 1 + rnd() * 2, walk: rnd() * 6 });
+    enemies.push({ id: i, model, bar, marker, x: p.x, z: p.z, spawnX: p.x, spawnZ: p.z, hp: 70, maxHp: 70, angle: rnd() * 6.28, dead: false, respawn: 0, alert: 0, fireCd: 1 + rnd() * 2, walk: rnd() * 6 });
   });
 }
 spawnEnemies();
@@ -533,6 +557,17 @@ for (let i = 0; i < 3; i++) {
 }
 const extractBeacon = makeBeacon(0xffa86b, true); extractBeacon.visible = false; world.add(extractBeacon);
 extraction = { x: 234, z: 0 };
+
+/* ---------- free roam street ops ---------- */
+const EVENT_SPOTS = [
+  { x: -156, z: 0 }, { x: -78, z: 0 }, { x: 0, z: 0 }, { x: 78, z: 0 }, { x: 156, z: 0 },
+  { x: 0, z: -156 }, { x: 0, z: -78 }, { x: 0, z: 78 }, { x: 0, z: 156 },
+  { x: -156, z: 78 }, { x: 156, z: 78 }, { x: -156, z: -78 }, { x: 156, z: -78 },
+  { x: 78, z: 156 }, { x: -78, z: 156 }, { x: 78, z: -156 }, { x: -78, z: -156 }
+];
+const streetBeacon = makeBeacon(0xffc35e); streetBeacon.visible = false; world.add(streetBeacon);
+const streetEvent = { active: false, type: null, name: '', copy: '', timer: 0, duration: 1, progress: 0, goal: 1, target: null, targets: [], x: 0, z: 0, reward: 0, xp: 0 };
+let eventCooldown = 0;
 
 /* ---------- interior ---------- */
 const ROOM = { w: 16, d: 12, h: 4.4 };
@@ -667,6 +702,17 @@ function updateHUD(force = false) {
   el.missionName.textContent = JOBS[(job - 1) % JOBS.length];
   const nearestPkg = packages.filter(p => !p.got).reduce((best, p) => Math.min(best, dist2(player.x, player.z, p.x, p.z)), Infinity);
   el.objective.innerHTML = missionDone ? '▸ <b>Job complete</b> — free roam / new contract incoming' : got < 3 ? '▸ Secure the <b>ghost packages</b> — nearest ' + Math.round(nearestPkg) + 'm' : '▸ Reach the <b>orange extraction</b> — ' + Math.round(dist2(player.x, player.z, extraction.x, extraction.z)) + 'm';
+  if (streetEvent.active) {
+    document.body.classList.add('event-active');
+    el.eventPanel.classList.add('on');
+    el.eventName.textContent = streetEvent.name;
+    el.eventCopy.textContent = streetEvent.copy;
+    el.eventTimer.textContent = fmtTime(streetEvent.timer);
+    el.eventBar.style.width = clamp(streetEvent.timer / streetEvent.duration * 100, 0, 100) + '%';
+    if (streetEvent.type === 'takedown') el.eventProgress.textContent = 'TARGETS ' + streetEvent.progress + ' / ' + streetEvent.goal;
+    else if (streetEvent.type === 'bounty') el.eventProgress.textContent = streetEvent.target && !streetEvent.target.dead ? 'TARGET ACTIVE' : 'TARGET LOST';
+    else el.eventProgress.textContent = Math.round(dist2(player.x, player.z, streetEvent.x, streetEvent.z)) + (streetEvent.type === 'checkpoint' ? 'M TO EXIT' : 'M TO DROP');
+  } else { el.eventPanel.classList.remove('on'); document.body.classList.remove('event-active'); }
   const w = WEAPONS[player.weapon];
   if (mode === 'vehicle' && player.vehicle) {
     el.weaponName.textContent = player.vehicle.name;
@@ -803,7 +849,7 @@ function completeContract() {
   addCash(reward); gainXP(xp); player.heat = Math.min(10, player.heat + 1);
   burst(player.x, 1.2, player.z, '#66f0c2', 28, 7); sfx.win();
   if (isFinal) {
-    campaignComplete = true;
+    campaignComplete = true; eventCooldown = 999;
     showToast('FINAL CONTRACT COMPLETE · +$' + reward.toLocaleString() + ' · THE NIGHT IS YOURS', 'good');
     setTimeout(() => { if (playing && !finalWinOpen) showWinScreen(); }, 1500);
     return;
@@ -836,11 +882,106 @@ function showWinScreen() {
 function freeRoam() {
   el.win.classList.remove('open'); finalWinOpen = false;
   job++; startContract(false);
-  showToast('FREE ROAM · CONTRACT ' + String(job).padStart(2, '0') + ' INBOUND', 'good');
+  streetEvent.active = false; streetBeacon.visible = false; clearEnemyMarks();
+  eventCooldown = 7;
+  showToast('FREE ROAM · CONTRACT ' + String(job).padStart(2, '0') + ' INBOUND · WATCH FOR STREET OPS', 'good');
   lockPointer();
 }
 document.querySelector('#win-again').addEventListener('click', () => location.reload());
 document.querySelector('#win-roam').addEventListener('click', freeRoam);
+
+/* ---------- street ops ---------- */
+function clearEnemyMarks() { for (const e of enemies) if (e.marker) e.marker.visible = false; }
+function markEnemy(e) { e.marker.visible = true; e.alert = Math.max(e.alert, 5); }
+function pickEventSpot() {
+  const pool = EVENT_SPOTS.filter(s => !blockedAt(s.x, s.z, .4) && dist2(player.x, player.z, s.x, s.z) > 46);
+  const list = pool.length ? pool : EVENT_SPOTS;
+  return list[Math.floor(Math.random() * list.length)];
+}
+function spawnStreetEvent(forceType = null) {
+  if (streetEvent.active || !campaignComplete || mode === 'interior' || shopOpen) return;
+  const alive = enemies.filter(e => !e.dead);
+  const types = ['drop', 'checkpoint'];
+  if (alive.length >= 1) types.push('bounty');
+  if (alive.length >= 3) types.push('takedown');
+  const type = forceType && types.includes(forceType) ? forceType : types[Math.floor(Math.random() * types.length)];
+  const ev = streetEvent;
+  ev.active = true; ev.type = type; ev.progress = 0; ev.goal = 1; ev.target = null; ev.targets = [];
+  streetBeacon.visible = false; clearEnemyMarks();
+  if (type === 'bounty') {
+    const far = alive.filter(e => dist2(player.x, player.z, e.x, e.z) > 36);
+    const pool = far.length ? far : alive;
+    const target = pool[Math.floor(Math.random() * pool.length)];
+    ev.target = target; ev.x = target.x; ev.z = target.z; ev.goal = 1;
+    ev.name = 'BOUNTY MARK'; ev.copy = 'A marked runner is loose in the district. Take them down before the clock runs out.';
+    ev.reward = 500 + job * 45; ev.xp = 55 + job * 6; ev.duration = 100; ev.timer = 100;
+    markEnemy(target);
+  } else if (type === 'takedown') {
+    const far = alive.filter(e => dist2(player.x, player.z, e.x, e.z) > 30).sort(() => Math.random() - .5);
+    const source = far.length >= 3 ? far : alive.slice().sort(() => Math.random() - .5);
+    ev.targets = source.slice(0, 3); ev.goal = 3;
+    ev.targets.forEach(markEnemy);
+    ev.name = 'SHAKEDOWN'; ev.copy = 'Three marked runners are working the district. Drop all three before they scatter.';
+    ev.reward = 800 + job * 55; ev.xp = 90 + job * 8; ev.duration = 120; ev.timer = 120;
+  } else if (type === 'drop') {
+    const spot = pickEventSpot();
+    ev.x = spot.x; ev.z = spot.z;
+    ev.name = 'DEAD DROP'; ev.copy = 'A supply cache is exposed nearby. Grab it before the window closes.';
+    ev.reward = 420 + job * 35; ev.xp = 50 + job * 6; ev.duration = 75; ev.timer = 75;
+    streetBeacon.position.set(ev.x, 0, ev.z); streetBeacon.visible = true;
+  } else {
+    const spot = pickEventSpot();
+    ev.x = spot.x; ev.z = spot.z;
+    ev.name = 'EXTRACTION WINDOW'; ev.copy = 'A clean exit is open. Reach the marked point before it shuts.';
+    ev.reward = 460 + job * 35; ev.xp = 55 + job * 6; ev.duration = 60; ev.timer = 60;
+    streetBeacon.position.set(ev.x, 0, ev.z); streetBeacon.visible = true;
+  }
+  showToast('STREET OP · ' + ev.name + ' · CHECK THE MAP', 'good'); sfx.pickup();
+  updateHUD(true);
+}
+function completeStreetEvent() {
+  const ev = streetEvent; if (!ev.active) return;
+  const sx = ev.target ? ev.target.x : ev.x, sz = ev.target ? ev.target.z : ev.z;
+  addCash(ev.reward); gainXP(ev.xp);
+  burst(sx, 1.2, sz, '#ffc35e', 24, 7); sfx.win();
+  showToast('STREET OP COMPLETE · +$' + ev.reward.toLocaleString() + ' · +' + ev.xp + ' XP', 'good');
+  streetBeacon.visible = false; clearEnemyMarks();
+  ev.active = false; ev.target = null; ev.targets = [];
+  eventCooldown = 26 + Math.random() * 20;
+  updateHUD(true);
+}
+function failStreetEvent() {
+  const ev = streetEvent; if (!ev.active) return;
+  showToast('STREET OP EXPIRED · ' + ev.name, 'bad'); sfx.deny();
+  streetBeacon.visible = false; clearEnemyMarks();
+  ev.active = false; ev.target = null; ev.targets = [];
+  eventCooldown = 18 + Math.random() * 15;
+  updateHUD(true);
+}
+function updateStreetEvents(dt) {
+  if (!campaignComplete || mode === 'interior') return;
+  const ev = streetEvent;
+  for (const e of enemies) {
+    if (!e.marker || !e.marker.visible) continue;
+    e.marker.userData.ring.rotation.z += dt * 2.2;
+    const pulse = 1 + Math.sin(now * 4 + e.id) * .12;
+    e.marker.userData.halo.scale.set(3 * pulse, 3 * pulse, 1);
+  }
+  if (!ev.active) {
+    eventCooldown -= dt;
+    if (eventCooldown <= 0 && !finalWinOpen) spawnStreetEvent();
+    return;
+  }
+  ev.timer -= dt;
+  if (ev.type === 'bounty' && ev.target && !ev.target.dead) { ev.x = ev.target.x; ev.z = ev.target.z; }
+  if (ev.type === 'drop' || ev.type === 'checkpoint') {
+    streetBeacon.userData.ring.rotation.z += dt * 1.4;
+    streetBeacon.userData.ring2.rotation.z -= dt * .7;
+    streetBeacon.userData.core.position.y = .85 + Math.sin(now * 2.6) * .18;
+    if (dist2(player.x, player.z, ev.x, ev.z) < (ev.type === 'drop' ? 2.9 : 4.8)) { completeStreetEvent(); return; }
+  }
+  if (ev.timer <= 0) failStreetEvent();
+}
 
 /* ---------- doors / interiors / vehicles ---------- */
 function nearestEnterable() {
@@ -1059,6 +1200,15 @@ function killEnemy(e) {
   addCash(reward); gainXP(30 + job * 4); player.kills++; player.heat = Math.min(9, player.heat + 1.8);
   burst(e.x, 1.2, e.z, '#ffbf72', 20, 6);
   sfx.kill(); showToast('BOUNTY DOWN · +$' + reward, 'good');
+  if (streetEvent.active) {
+    if (streetEvent.type === 'bounty' && streetEvent.target === e) completeStreetEvent();
+    else if (streetEvent.type === 'takedown' && streetEvent.targets.includes(e)) {
+      streetEvent.progress++;
+      e.marker.visible = false;
+      if (streetEvent.progress >= streetEvent.goal) completeStreetEvent();
+      else showToast('MARKED RUNNER DOWN · ' + streetEvent.progress + ' / ' + streetEvent.goal, 'good');
+    }
+  }
   updateHUD(true);
 }
 function enemyShoot(e) {
@@ -1225,6 +1375,7 @@ function updateWorld(dt) {
   } else if (mode === 'vehicle') { updateVehicle(dt); }
   else { updatePlayer(dt); }
   if (mode !== 'interior') { updateEnemies(dt); updatePackages(dt); }
+  updateStreetEvents(dt);
   if (mouse.down || touch.fire) shoot();
   updateVisuals(dt); updateCamera(dt); updatePrompt(); updateHUD();
 }
@@ -1273,6 +1424,17 @@ function drawMinimap() {
   for (const key of parks) { const [ix, iz] = key.split(',').map(Number); const px = -HALF + PITCH / 2 + ix * PITCH, pz = -HALF + PITCH / 2 + iz * PITCH; ctx.fillStyle = '#1e3b2f'; ctx.fillRect(mx(px - 30), my(pz - 30), 60 * sc, 60 * sc); }
   for (const p of packages) if (!p.got) { ctx.fillStyle = '#66f0c2'; ctx.beginPath(); ctx.arc(mx(p.x), my(p.z), 3.1, 0, 7); ctx.fill(); ctx.strokeStyle = '#66f0c255'; ctx.beginPath(); ctx.arc(mx(p.x), my(p.z), 6 + Math.sin(now * 3) * 1.5, 0, 7); ctx.stroke(); }
   if (extractVisible) { ctx.fillStyle = '#ffa86b'; ctx.fillRect(mx(extraction.x) - 3, my(extraction.z) - 3, 6, 6); ctx.strokeStyle = '#ffa86b88'; ctx.strokeRect(mx(extraction.x) - 6, my(extraction.z) - 6, 12, 12); }
+  if (streetEvent.active) {
+    const points = streetEvent.type === 'bounty' ? (streetEvent.target && !streetEvent.target.dead ? [streetEvent.target] : []) : streetEvent.type === 'takedown' ? streetEvent.targets.filter(e => !e.dead) : [{ x: streetEvent.x, z: streetEvent.z }];
+    for (const p of points) {
+      const ex = mx(p.x), ez = my(p.z);
+      ctx.save(); ctx.translate(ex, ez); ctx.rotate(Math.PI / 4);
+      ctx.fillStyle = '#ffc35e'; ctx.fillRect(-2.7, -2.7, 5.4, 5.4);
+      ctx.strokeStyle = '#ffc35e88'; ctx.strokeRect(-5.4, -5.4, 10.8, 10.8);
+      ctx.restore();
+      ctx.strokeStyle = '#ffc35e55'; ctx.beginPath(); ctx.arc(ex, ez, 7 + Math.sin(now * 4) * 1.5, 0, 7); ctx.stroke();
+    }
+  }
   for (const c of cars) { ctx.fillStyle = '#c4a66c'; ctx.fillRect(mx(c.x) - 1.5, my(c.z) - 1.5, 3, 3); }
   for (const e of enemies) if (!e.dead) { ctx.fillStyle = '#ff705f'; ctx.fillRect(mx(e.x) - 1.5, my(e.z) - 1.5, 3, 3); }
   const px = mx(player.x), py = my(player.z);
@@ -1388,7 +1550,7 @@ requestAnimationFrame(animate);
 
 /* ---------- debug handle (used by automated checks) ---------- */
 window.__NEON = {
-  get state() { return { playing, mode, job, campaignComplete, finalWinOpen, shopOpen, hp: player.hp, cash: player.cash, weapon: player.weapon, owned: [...owned], x: player.x, z: player.z, cameraYaw, cameraPitch, fireCd: player.fireCd, mouseDown: mouse.down, touchFire: touch.fire, packages: packages.map(p => ({ x: p.x, z: p.z, got: p.got })), extraction, enemies: enemies.filter(e => !e.dead).length, enemyList: enemies.filter(e => !e.dead).map(e => ({ x: e.x, z: e.z, hp: e.hp })) }; },
+  get state() { return { playing, mode, job, campaignComplete, finalWinOpen, shopOpen, hp: player.hp, cash: player.cash, weapon: player.weapon, owned: [...owned], x: player.x, z: player.z, cameraYaw, cameraPitch, fireCd: player.fireCd, mouseDown: mouse.down, touchFire: touch.fire, packages: packages.map(p => ({ x: p.x, z: p.z, got: p.got })), extraction, event: { active: streetEvent.active, type: streetEvent.type, name: streetEvent.name, timer: streetEvent.timer, progress: streetEvent.progress, goal: streetEvent.goal, x: streetEvent.x, z: streetEvent.z, target: streetEvent.target ? { x: streetEvent.target.x, z: streetEvent.target.z, hp: streetEvent.target.hp } : null, targets: streetEvent.targets.map(e => ({ x: e.x, z: e.z, hp: e.hp, dead: e.dead })) }, enemies: enemies.filter(e => !e.dead).length, enemyList: enemies.filter(e => !e.dead).map(e => ({ x: e.x, z: e.z, hp: e.hp })) }; },
   start: startGame,
   cash: n => { addCash(n); renderShop(); },
   teleport: (x, z) => { player.x = x; player.z = z; playerModel.group.position.set(x, .12, z); },
@@ -1399,6 +1561,11 @@ window.__NEON = {
   enterSafehouse: () => { if (enterables[0]) enterInterior(enterables[0]); },
   complete: () => completeContract(),
   winNow: () => { job = TOTAL_JOBS; missionDone = false; completeContract(); },
+  startEvent: (type = null) => { campaignComplete = true; updateHUD(true); eventCooldown = 0; spawnStreetEvent(type); return streetEvent.type; },
+  setEventCooldown: n => { eventCooldown = n; },
+  failEvent: () => failStreetEvent(),
+  completeEvent: () => completeStreetEvent(),
+  hitTarget: (dmg = 999) => { const t = streetEvent.target || streetEvent.targets.find(e => !e.dead); if (t) damageEnemy(t, dmg, 0); },
   buy: id => buyItem(id)
 };
 
